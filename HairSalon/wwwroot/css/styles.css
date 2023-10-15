@@ -1,9 +1,12 @@
-div#footer {
-	position:fixed;
-	bottom:0px;
-	left:0px;
-	width:100%;
-	color:#CCC;
-	background:#333;
-	padding:8px;
+div {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background-color: lightsteelblue;
+  font-size: 11px;
+}
+
+#footer-image {
+  margin: 1% 2% 1%;
 }
