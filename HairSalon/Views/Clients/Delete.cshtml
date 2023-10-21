@@ -1,0 +1,14 @@
+@{
+  Layout = "_Layout";
+}
+
+@model HairSalon.Models.Client
+
+<div class="headerpadding"></div>
+<h2>Are you sure you want to delete this client?</h2>
+
+@Html.DisplayNameFor(model => model.LastName): @Html.DisplayFor(model => model.LastName)
+@using (Html.BeginForm())
+{
+  <input type="submit" value="Delete" />
+}
