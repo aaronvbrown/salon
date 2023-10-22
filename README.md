@@ -17,7 +17,7 @@ This utility allows for tracking stylists and their clients at the salon.
 
 ## Setup Requirements
 
-* You'll need the .NET SDK installed on your system to run the app.  Documentation for the .NET SDK is available here.
+* You'll need the .NET SDK installed on your system to run the app.  Documentation for the .NET SDK is available [here](https://dotnet.microsoft.com/en-us/).
 * Clone the repository **git clone https://github.com/aaronvbrown/salon.git**  in the terminal
 * Navigate to this project's production directory "HairSalon"
 * Create a file appsettings.json, adding the following code.  (Replace uid and pwd with your own username and password for MySQL)
