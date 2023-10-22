@@ -10,12 +10,12 @@
 <div class="headerpadding"></div>
 <h2>Stylist Details</h2>
 <hr />
-<h3>@Html.DisplayNameFor(model => model.LastName): @Html.DisplayFor(model => model.LastName)</h3>
-<h3>@Html.DisplayNameFor(model => model.FirstName): @Html.DisplayFor(model => model.FirstName)</h3>
+<p>@Html.DisplayNameFor(model => model.LastName): @Html.DisplayFor(model => model.LastName)</p>
+<p>@Html.DisplayNameFor(model => model.FirstName): @Html.DisplayFor(model => model.FirstName)</p>
 
 @if(@Model.Clients.Count == 0)
 {
-  <h3>No clients have been added.</h3>
+  <h4>No clients have been added.</h4>
   <p>@Html.ActionLink("Add a client", "Create", "Clients")</p>
 }
 else
